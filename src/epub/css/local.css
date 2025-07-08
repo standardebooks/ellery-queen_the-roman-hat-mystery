@@ -253,3 +253,13 @@ span.elision{
 	margin-left: 3em;
 }
 /* end of poem/verse/song */
+
+/* custom */
+#chapter-18 blockquote header p:first-of-type{
+	font-variant: small-caps;
+}
+
+#chapter-18 blockquote header p:last-of-type{
+	text-align: right;
+}
+/* end of custom */
