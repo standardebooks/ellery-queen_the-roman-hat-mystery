@@ -255,6 +255,21 @@ span.elision{
 /* end of poem/verse/song */
 
 /* custom */
+#introduction div{
+	margin-bottom: 1em;
+}
+
+section[epub|type~="introduction"] > p:nth-last-of-type(-n+4){
+	margin-top: 1em;
+	text-indent: 0;
+	text-align: center;
+}
+
+section[epub|type~="introduction"] > p:nth-last-of-type(3),
+section[epub|type~="introduction"] > p:last-of-type{
+	font-variant: small-caps;
+}
+
 #chapter-18 blockquote header p:first-of-type{
 	font-variant: small-caps;
 }
