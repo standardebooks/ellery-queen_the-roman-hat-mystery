@@ -1,8 +1,8 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
-/* required if using [xml|lang] */
 @namespace xml "http://www.w3.org/XML/1998/namespace";
 
+/* required if using [xml|lang] */
 /* abbreviations */
 abbr[epub|type~="z3998:acronym"],
 abbr[epub|type~="se:era"],
