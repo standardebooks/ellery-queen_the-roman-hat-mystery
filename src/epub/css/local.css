@@ -259,15 +259,23 @@ span.elision{
 	margin-bottom: 1em;
 }
 
-section[epub|type~="introduction"] > p:nth-last-of-type(-n+4){
+#introduction div ~ p:nth-last-of-type(-n+4){
 	margin-top: 1em;
 	text-indent: 0;
 	text-align: center;
 }
 
-section[epub|type~="introduction"] > p:nth-last-of-type(3),
-section[epub|type~="introduction"] > p:last-of-type{
+#introduction div ~ p:nth-last-of-type(3),
+#introduction div ~ p:last-of-type{
 	font-variant: small-caps;
+}
+
+#map-explanation h2 b{
+	text-transform: uppercase;
+}
+
+#map-explanation p {
+	text-indent: 0;
 }
 
 #chapter-18 blockquote header p:first-of-type{
