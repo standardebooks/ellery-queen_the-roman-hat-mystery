@@ -260,6 +260,10 @@ span.elision{
 }
 
 /* custom */
+table{
+	margin: 1em auto;
+}
+
 #introduction div{
 	margin-bottom: 1em;
 }
@@ -279,8 +283,28 @@ span.elision{
 	text-transform: uppercase;
 }
 
-#map-explanation p {
+#map-explanation p{
 	text-indent: 0;
+}
+
+#chapter-10 blockquote,
+#chapter-15 blockquote{
+	font-variant: all-small-caps;
+	text-align: center;
+}
+
+#chapter-15 blockquote i{
+	font-variant: none;
+}
+
+#chapter-15 blockquote b{
+	font-style: initial;
+}
+
+#chapter-17 figcaption{
+	columns: 2;
+	margin-inline: 10%;
+	text-align: initial;
 }
 
 #chapter-18 blockquote header p:first-of-type{
