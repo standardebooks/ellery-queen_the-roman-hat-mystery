@@ -254,6 +254,11 @@ span.elision{
 }
 /* end of poem/verse/song */
 
+/* telegram */
+.telegram{
+	font-variant: all-small-caps;
+}
+
 /* custom */
 #introduction div{
 	margin-bottom: 1em;
