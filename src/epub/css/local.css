@@ -95,8 +95,8 @@ table{
 
 #introduction div ~ p:nth-last-of-type(-n+4){
 	margin-top: 1em;
-	text-indent: 0;
 	text-align: center;
+	text-indent: 0;
 }
 
 #introduction div ~ p:nth-last-of-type(3),
@@ -136,11 +136,11 @@ table{
 	text-align: right;
 }
 
-#interlude header h2 {
+#interlude header h2{
 	margin-bottom: 1em;
 }
 
-#interlude header p {
+#interlude header p{
 	font-variant: small-caps;
 }
 /* end of custom */
