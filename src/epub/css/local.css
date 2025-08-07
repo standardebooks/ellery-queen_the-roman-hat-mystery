@@ -89,6 +89,19 @@ table{
 	margin: 1em auto;
 }
 
+#dedication p{
+	font-variant: small-caps;
+	line-height: 1.5;
+}
+
+#dedication p > b{
+	font-size: 1.2em;
+}
+
+#dedication p > i{
+	font-variant: none;
+}
+
 #introduction div{
 	margin-bottom: 1em;
 }
