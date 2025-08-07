@@ -89,6 +89,10 @@ table{
 	margin: 1em auto;
 }
 
+tbody td{
+	text-align: right;
+}
+
 #dedication p{
 	font-variant: small-caps;
 	line-height: 1.5;
@@ -147,6 +151,12 @@ table{
 
 #chapter-18 blockquote header p:last-of-type{
 	text-align: right;
+}
+
+#chapter-18 blockquote:nth-of-type(5) footer p:nth-child(2){
+	margin-bottom: 1em;
+	text-align: initial;
+	text-indent: 0;
 }
 
 #interlude header h2{
