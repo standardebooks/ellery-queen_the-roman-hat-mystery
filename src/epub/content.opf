@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
-		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/ellery-queen/the-roman-hat-mystery</dc:identifier>
+		<dc:identifier id="uid">https://standardebooks.org/ebooks/ellery-queen/the-roman-hat-mystery</dc:identifier>
 		<dc:date>1900-01-01T00:00:00Z</dc:date>
 		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
@@ -50,19 +50,17 @@
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;When the play they are attending is interrupted by a policeman yelling at everyone to stay where they are and not get out of their seat, most of the audience in the Roman Theater think nothing of it. After all, the play is about the underworld and the police and has been full of the sounds of sensationalized criminal society. But this policeman is not part of the play; someone in the audience has been murdered.&lt;/p&gt;
 			&lt;p&gt;Inspector Richard Queen soon arrives on the scene, closely followed by his son Ellery, a mystery writer who often assists Richard on his cases. They quickly determine the victim was a well-known crooked lawyer, and discover an odd clue: the man’s top hat is missing. That clue will loom large as the Queens investigation leads them deeper into both New York high society and the criminal world in which the dead man formerly moved.&lt;/p&gt;
-			&lt;p&gt;&lt;i&gt;The Roman Hat Mystery&lt;/i&gt; is the first of the Ellery Queen novels. Ellery Queen was the pseudonym of a pair of cousins who wrote most of the novels, as well as the name of their fictional amateur detective.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;The Roman Hat Mystery&lt;/i&gt; is the first of the Ellery Queen detective novels. &lt;a href="https://standardebooks.org/ebooks/ellery-queen"&gt;Ellery Queen&lt;/a&gt; was the pseudonym of a pair of cousins who wrote most of the novels, as well as the name of their fictional amateur detective.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/76339</dc:source>
 		<dc:source>https://archive.org/details/bwb_KU-427-079</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Roman_Hat_Mystery</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/ellery-queen_the-roman-hat-mystery</meta>
 		<dc:creator id="author">Ellery Queen</dc:creator>
 		<meta property="file-as" refines="#author">Queen, Ellery</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Ellery_Queen</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79139599</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
