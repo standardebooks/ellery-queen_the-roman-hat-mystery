@@ -151,6 +151,10 @@ tbody td{
 	font-variant: small-caps;
 }
 
+#introduction ul{
+	list-style-type: none;
+}
+
 #map-explanation h2 b{
 	text-transform: uppercase;
 }
