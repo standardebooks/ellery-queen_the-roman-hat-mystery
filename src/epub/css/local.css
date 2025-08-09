@@ -136,18 +136,18 @@ tbody td{
 	font-variant: none;
 }
 
-#introduction div{
+#introduction div:first-of-type{
 	margin-bottom: 1em;
 }
 
-#introduction div ~ p:nth-last-of-type(-n+4){
+#introduction div:last-of-type p{
 	margin-top: 1em;
 	text-align: center;
 	text-indent: 0;
 }
 
-#introduction div ~ p:nth-last-of-type(3),
-#introduction div ~ p:last-of-type{
+#introduction div:last-of-type p:nth-of-type(2),
+#introduction div:last-of-type p:last-of-type{
 	font-variant: small-caps;
 }
 
