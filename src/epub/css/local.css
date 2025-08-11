@@ -136,18 +136,40 @@ tbody td{
 	font-variant: none;
 }
 
-#dramatis-personae div:first-of-type{
-	margin-bottom: 1em;
+[epub|type~="z3998:dramatis-personae"]{
+	text-align: center;
 }
 
-#dramatis-personae ul ~ p{
-	margin-top: 1em;
-	text-align: center;
+[epub|type~="z3998:dramatis-personae"] p{
 	text-indent: 0;
 }
 
-#dramatis-personae ul{
-	list-style-type: none;
+[epub|type~="z3998:dramatis-personae"] ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+[epub|type~="z3998:dramatis-personae"] ul li{
+	font-style: italic;
+	margin: 1em;
+}
+
+[epub|type~="z3998:dramatis-personae"] ul + p{
+	margin-top: 2em;
+}
+
+[epub|type~="z3998:dramatis-personae"] div:first-of-type{
+	margin-bottom: 1em;
+	text-align: initial;
+}
+
+[epub|type~="z3998:dramatis-personae"] ul + p + p{
+	margin-top: 1em;
+}
+
+[epub|type~="z3998:dramatis-personae"] li i{
+	font-style: normal;
 }
 
 #chapter-10 blockquote,
