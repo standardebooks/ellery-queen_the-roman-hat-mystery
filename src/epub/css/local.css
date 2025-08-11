@@ -136,31 +136,18 @@ tbody td{
 	font-variant: none;
 }
 
-#introduction div:first-of-type{
+#dramatis-personae div:first-of-type{
 	margin-bottom: 1em;
 }
 
-#introduction div:last-of-type p{
+#dramatis-personae ul ~ p{
 	margin-top: 1em;
 	text-align: center;
 	text-indent: 0;
 }
 
-#introduction div:last-of-type p:nth-of-type(2),
-#introduction div:last-of-type p:last-of-type{
-	font-variant: small-caps;
-}
-
-#introduction ul{
+#dramatis-personae ul{
 	list-style-type: none;
-}
-
-#map-explanation h2 b{
-	text-transform: uppercase;
-}
-
-#map-explanation p{
-	text-indent: 0;
 }
 
 #chapter-10 blockquote,

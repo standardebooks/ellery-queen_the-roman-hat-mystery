@@ -6,10 +6,4 @@
 			<reason>The other references are to the detective, not the author.</reason>
 		</ignore>
 	</file>
-	<file path="introduction.xhtml">
-		<ignore>
-			<code>y-003</code>
-			<reason>The names are listed as they are in the scans.</reason>
-		</ignore>
-	</file>
 </se-lint-ignore>
