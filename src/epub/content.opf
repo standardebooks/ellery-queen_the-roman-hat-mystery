@@ -43,10 +43,11 @@
 		<meta property="authority" refines="#subject-4">LCSH</meta>
 		<meta property="term" refines="#subject-4">sh2008108193</meta>
 		<meta property="se:subject">Fiction</meta>
+		<meta property="se:subject">Mystery</meta>
 		<meta id="collection-1" property="belongs-to-collection">Ellery Queen</meta>
 		<meta property="collection-type" refines="#collection-1">series</meta>
 		<meta property="group-position" refines="#collection-1">1</meta>
-		<meta id="collection-2" property="belongs-to-collection">Haycroft-Queen Cornerstones</meta>
+		<meta id="collection-2" property="belongs-to-collection">Haycraft-Queen Cornerstones</meta>
 		<meta property="collection-type" refines="#collection-2">set</meta>
 		<dc:description id="description">A police detective and his son attempt to solve the murder of a man attending a play at the theater.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
