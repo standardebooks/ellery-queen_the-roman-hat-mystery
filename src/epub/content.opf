@@ -58,7 +58,7 @@
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/76339</dc:source>
 		<dc:source>https://archive.org/details/bwb_KU-427-079</dc:source>
-		<meta property="se:word-count">97055</meta>
+		<meta property="se:word-count">94605</meta>
 		<meta property="se:reading-ease.flesch">75.3</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Roman_Hat_Mystery</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/ellery-queen_the-roman-hat-mystery</meta>
