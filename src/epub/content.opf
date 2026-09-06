@@ -31,6 +31,13 @@
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.2 Level AA.</meta>
 		<dc:title id="title">The Roman Hat Mystery</dc:title>
 		<meta property="file-as" refines="#title">Roman Hat Mystery, The</meta>
+		<meta property="title-type" refines="#title">main</meta>
+		<dc:title id="subtitle">A Problem in Deduction</dc:title>
+		<meta property="file-as" refines="#subtitle">Problem in Deduction, A</meta>
+		<meta property="title-type" refines="#subtitle">subtitle</meta>
+		<dc:title id="fulltitle">Yama: A Problem in Deduction</dc:title>
+		<meta property="file-as" refines="#fulltitle">The Roman Hat Mystery: A Problem in Deduction</meta>
+		<meta property="title-type" refines="#fulltitle">expanded</meta>
 		<dc:subject id="subject-1">Detective and mystery stories</dc:subject>
 		<dc:subject id="subject-2">Fathers and sons--Fiction</dc:subject>
 		<dc:subject id="subject-3">Police--New York (State)--New York--Fiction</dc:subject>
