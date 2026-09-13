@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <se-lint-ignore>
+	<file path="acknowledgments.xhtml">
+		<ignore code="c-012">
+			<line>9</line>
+			<reason>Acknowledgements is formatted like a dedication.</reason>
+		</ignore>
+		<ignore code="y-003">
+			<line>10</line>
+			<reason>Acknowledgements is formatted like a dedication.</reason>
+		</ignore>
+	</file>
 	<file path="content.opf">
 		<ignore code="m-056">
 			<line>63</line>
